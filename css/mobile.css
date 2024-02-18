@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav {
+    display: block;
+    background: var(--background-menu-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+
+.open_menu, .close_menu {
+    display: block;
+    border: 0;
+    font-size: 2rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--color-text-one);
+}
+
+.aside_float {
+    display: none;
+}
+
+.main .section_search {
+    display: none;
+}
+
+.searchBar-container {
+    width: 200px;
+}
+
+
+
+
+/* aside flotante */
+
+
+.aside_float {
+    opacity: 0;
+    visibility: hidden;
+    height: 100vh;
+    width: 250px;
+    position: absolute;
+}
+
+.aside_float.visible {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
+
+.close_menu {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+
+
+
+
+
+.form__title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.form__search, .form__submit  {
+    font-size: 1.4rem;
+    line-height: 3.6rem;
+    width: 20rem;
+    height: 6rem;
+}
+
+
+
+
+/* main y cards */
+
+.main__title-search{
+    padding: 3rem;
+}
+
+.card-container {
+    padding: 3rem;
+}
+
+
+.card {
+    background: linear-gradient(92.74deg, #003060 0%, #0E86D4 50.97%, #68BBE3 99.85%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    height: 100%;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+.wrapper-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.wrapper-left .icon-wrapper {
+    flex: 50%;
+}
+
+.wrapper-left .info-wrapper {
+    flex: 50%;
+}
+
+
+
+
+
+
+
+.cityName {
+    font-size: 4rem;
+}
+
+.weatherDescription {
+    font-size: 2rem;
+}
+
+.temperature {
+    font-size: 6rem;
+}
+
+.temp-wrapper {
+    font-size: 1.3rem;
+}
+
