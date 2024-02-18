@@ -1,6 +1,3 @@
-// const apiKey = "29e08afec95fa9ab477a7abc9b0386c1";
-
-
 // CREAR CARDS
 const apiKey = "29e08afec95fa9ab477a7abc9b0386c1";
 
@@ -248,61 +245,6 @@ resetButton.addEventListener('click', () => {
 
   window.location.reload();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// async function fetchWeatherData(cityName){
-
-//     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric&lang=es`;
-
-//     try{
-
-//         const response = await fetch(apiUrl);
-//         const data = await response.json();
-
-//         // console.log(data)
-
-//         if (data.cod == "200") {
-
-//             console.log(data)
-//             return data
-//         }
-//         else {
-//             console.log(data.message)
-//         }
-
-//     }catch(error) {
-//         // console.log(error)
-//     }
-
-// }
-
-// function handleInputCity(event) {
-//     event.preventDefault();
-
-//     const cityInput = document.getElementById('cityInput');
-//     const cityName = cityInput.value.trim();
-
-//     fetchWeatherData(cityName)
-// }
-
-
-// const button = document.querySelector('.form__submit');
-
-// button.addEventListener('click', handleInputCity)
 
 
 
