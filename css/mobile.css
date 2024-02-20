@@ -96,11 +96,11 @@ body {
 /* main y cards */
 
 .main__title-search{
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .card-container {
-    padding: 3rem;
+    padding: 1rem;
 }
 
 
@@ -114,13 +114,13 @@ body {
     border-radius: 1rem;
     height: 100%;
     gap: 2rem;
-    padding: 5rem;
+    padding: 2rem;
 }
 
 .wrapper-left {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
 }
 
@@ -130,11 +130,8 @@ body {
 
 .wrapper-left .info-wrapper {
     flex: 50%;
+    align-items: center;
 }
-
-
-
-
 
 
 
