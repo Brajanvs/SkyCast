@@ -1,4 +1,4 @@
-import { createdCities, createCard, displayCard } from "./js/card.js";
+import { createdCities, createCard, displayCard } from "./card";
 const searchBarForm = document.getElementById('searchForm');
 const cardContainer = document.querySelector('.card-container');
 
