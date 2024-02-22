@@ -27,5 +27,4 @@ async function filterCities(searchTerm) {
 
 searchBarForm.addEventListener('submit', handleSearchBar);
 
-
 // buscador
