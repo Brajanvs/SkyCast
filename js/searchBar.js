@@ -1,4 +1,4 @@
-import { createdCities, createCard, displayCard } from "./card";
+import { createdCities, createCard, displayCard } from "./card.js";
 const searchBarForm = document.getElementById('searchForm');
 const cardContainer = document.querySelector('.card-container');
 
@@ -19,9 +19,10 @@ async function filterCities(searchTerm) {
 
     console.log(searchTerm.toLowerCase());
     // console.log(createdCities);
-    console.log(filteredCities);
+    console.log(filteredCities, "filterCities");
     cardContainer.innerHTML = "";
     displayCard(await createCard(filteredCities[0]));
+    console.log(filteredCities[0], "filteredCities[]")
 }
 
 searchBarForm.addEventListener('submit', handleSearchBar);
